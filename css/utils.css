@@ -1,23 +1,28 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
 :root {
-    --main-bg-color: brown;
-  }
-
-
-.max-width-1{
-    max-width: 80vw;
+  --main-bg-color: brown;
+  --font1: "Roboto", sans-serif;
+  --font2: "Ubuntu", sans-serif;
 }
 
-.max-width-2{
-    max-width: 60vw;
+.max-width-1 {
+  max-width: 80vw;
 }
 
-
-.m-auto{
-    margin: auto;
+.max-width-2 {
+  max-width: 60vw;
 }
 
+.m-auto {
+  margin: auto;
+}
 
-.btn{
+.btn {
+}
 
+.form-control {
 }
