@@ -45,11 +45,32 @@
 }
 
 .content {
-  height: 95px;
+  display: flex;
+  height: 400px;
   /* background-color: blue; */
+}
+
+.content-left{
+  font-family: var(--font1);
+  width: 50%;
+}
+
+.content-left h1{
+  font-family: var(--font2);
+}
+
+
+.content-right{
+  font-family: var(--font2);
+  width: 50%;
+}
+
+.content-right img{
+  height: 360px;
 }
 
 .footer {
   height: 50px;
+
   /* background-color: violet; */
 }
