@@ -9,6 +9,14 @@
   --font2: "Ubuntu", sans-serif;
 }
 
+.font1{
+  font-family: var(--font1)
+}
+
+.font2{
+  font-family: var(--font2);
+}
+
 .max-width-1 {
   max-width: 80vw;
 }
@@ -22,16 +30,22 @@
 }
 
 .btn {
-  font-size: 12px;
+  font-size: 14px;
   padding: 2px 5px;
   border: 1px solid black;
   border-radius: 20px;
   font-family: var(--font1);
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
+.btn:hover{
+  background-color: rgb(153, 227, 114);
+}
+
+
 .form-input {
-  padding: 5px 5px;
+  padding: 5px 20px;
   font-size: 12px;
   border: 2px solid black;
   border-radius: 20px;
